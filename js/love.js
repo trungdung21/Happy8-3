@@ -520,7 +520,7 @@
                 s.draw();
                 s.point = s.place.sub(s.point).div(s.speed).add(s.point);
                 s.angle += 0.05;
-                s.speed -= 1;
+                s.speed -= 3;
             }
         }
     }
